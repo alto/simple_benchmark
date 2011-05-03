@@ -1,0 +1,94 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-28 11:03:55) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /test/performance/browsing_test.rb:7:in `test_homepage'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit.rb:279
+  rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-28 11:03:55) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /test/performance/browsing_test.rb:7:in `test_homepage'
+  (__DELEGATION__):2:in `__send__'
+  (__DELEGATION__):2:in `run_test'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit.rb:279
+  rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-28 11:03:55) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /test/performance/browsing_test.rb:7:in `test_homepage'
+  (__DELEGATION__):2:in `__send__'
+  (__DELEGATION__):2:in `run_test'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit.rb:279
+  rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-28 11:03:56) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /test/performance/browsing_test.rb:7:in `test_homepage'
+  (__DELEGATION__):2:in `__send__'
+  (__DELEGATION__):2:in `run_test'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+  /Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/test/unit.rb:279
+  rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+Rendering rescues/layout (not_found)

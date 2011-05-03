@@ -1,0 +1,1946 @@
+events: process_time
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#last
+0 64313
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#merge_conditions
+1494 92774
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=10000 1497
+1497 4394075
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=10000 1504
+1504 15917
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=10000 1504
+1504 10581
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/reflection.rb
+fn=ActiveRecord::Reflection::ClassMethods#reflect_on_aggregation
+44 63326
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/reflection.rb
+cfn=ActiveRecord::Reflection::ClassMethods#reflections
+calls=10000 45
+45 124815
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 45
+45 32114
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=10000 45
+45 12617
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Thread>#current
+0 138972
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#scoped_methods
+2188 317765
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Thread#[]
+calls=10000 2189
+2189 12015
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=10000 2189
+2189 17873
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 2189
+2189 12717
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Thread#[]
+calls=10000 2189
+2189 11359
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=10000 2189
+2189 15498
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 2189
+2189 12699
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Thread#[]
+calls=10000 2189
+2189 10923
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=10000 2189
+2189 14446
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 2189
+2189 12591
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Thread#[]
+calls=10000 2189
+2189 11334
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=10000 2189
+2189 14350
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 2189
+2189 13017
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#expand_range_bind_variables
+2368 52909
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=10000 2371
+2371 154684
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#sanitize_sql
+2231 254931
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#quoted_table_name
+calls=10000 2236
+2236 693379
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#sanitize_sql_hash_for_conditions
+calls=10000 2236
+2236 3348744
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=20000 2236
+2236 23563
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#blank?
+calls=10000 2232
+2232 10244
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=20000 2236
+2236 25891
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=10000 2232
+2232 37149
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=String#blank?
+49 110721
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#include?
+0 12207
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+226 305819
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10527
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 12339
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10806
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 13109
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10562
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 12761
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10697
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 12537
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10831
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 12761
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10477
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 11978
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=10000 227
+227 10620
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=10000 227
+227 12463
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#==
+0 97245
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+fn=ActiveRecord::ConnectionAdapters::DatabaseStatements#select_all_without_query_cache
+6 33798
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#select
+calls=10000 7
+7 1665307
+
+fl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb
+fn=<Module::Benchmark>#realtime
+306 656303
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Time>#now
+calls=20000 309
+309 122852
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Float#-
+calls=10000 310
+310 10696
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mysql#query
+calls=10000 320
+320 310463
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Time#to_f
+calls=20000 310
+310 21758
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Time#initialize
+0 25452
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#*
+0 10480
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#join
+0 32028
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#object_id
+0 74520
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#to_s
+0 62167
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#each
+0 279862
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=10000 2282
+2282 13103
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#nil?
+calls=10000 2272
+2272 10851
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/reflection.rb
+cfn=ActiveRecord::Reflection::ClassMethods#reflect_on_aggregation
+calls=10000 2272
+2272 232872
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_sym
+calls=10000 2272
+2272 10761
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 2315
+2315 572157
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#include?
+calls=10000 2310
+2310 12207
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=10000 2307
+2307 14656
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#attribute_condition
+calls=10000 2315
+2315 251015
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote_column_name
+calls=10000 2315
+2315 44171
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=10000 2306
+2306 14052
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#[]
+0 11457
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Mysql::Result#free
+0 17468
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#-
+0 66880
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#default
+0 245210
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#find_initial
+1508 71011
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#update
+calls=10000 1509
+1509 14650
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#first
+calls=10000 1510
+1510 11747
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#find_every
+calls=10000 1510
+1510 11936057
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#execute
+319 37088
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::AbstractAdapter#log
+calls=10000 320
+320 1420540
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::AbstractAdapter#log_info
+186 42315
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#debug?
+calls=10000 187
+187 45025
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class#read_inheritable_attribute
+112 50564
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#inheritable_attributes
+calls=10000 113
+113 21453
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 113
+113 10950
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#initialize_copy
+0 11140
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#flatten
+0 156702
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Array>#allocate
+0 11407
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote_table_name
+241 61907
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 242
+242 11701
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 242
+242 11987
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#pop
+0 10929
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#empty?
+0 31725
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#name
+0 215142
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/reflection.rb
+fn=ActiveRecord::Reflection::ClassMethods#reflections
+31 41848
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#read_inheritable_attribute
+calls=10000 32
+32 82967
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#quote_bound_value
+2385 75098
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote
+calls=10000 2393
+2393 440050
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 2393
+2393 585819
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=10000 2386
+2386 13775
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#===
+0 10090
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Integer#times
+0 82608
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::User(id: integer, user_name: string)>#find_by_id
+calls=10000 7
+7 14292208
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb
+fn=<Module::Benchmark>#ms
+16 43871
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#*
+calls=10000 17
+17 10480
+cfl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb
+cfn=<Module::Benchmark>#realtime
+calls=10000 17
+17 1122072
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Thread#[]
+0 45631
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Time>#allocate
+0 25533
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#shift
+0 11814
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_conditions!
+1804 177027
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#finder_needs_type_condition?
+calls=10000 1808
+1808 52480
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1805
+1805 10683
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<<
+calls=10000 1810
+1810 18951
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=10000 1810
+1810 35294
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#merge_conditions
+calls=10000 1809
+1809 4513347
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Integer#to_i
+0 9968
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class#inheritable_attributes
+91 21453
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#set_readonly_option!
+2410 298331
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scope
+calls=10000 2414
+2414 228274
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=10000 2414
+2414 21588
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 2414
+2414 32583
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=10000 2413
+2413 11560
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scope
+calls=10000 2414
+2414 216817
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=10000 2414
+2414 21225
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 2414
+2414 33130
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=10000 2413
+2413 11338
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#values
+0 16207
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#+
+0 12449
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#gsub
+0 93363
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#shift
+calls=10000 2353
+2353 11814
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#quote_bound_value
+calls=10000 2353
+2353 1114742
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=<Class::User(id: integer, user_name: string)>#table_name
+1 41813
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#construct_finder_sql
+1686 359952
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_limit!
+calls=10000 1696
+1696 950959
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#quoted_table_name
+calls=10000 1689
+1689 697853
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_order!
+calls=10000 1695
+1695 104763
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_conditions!
+calls=10000 1692
+1692 4807782
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scope
+calls=10000 1687
+1687 200679
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<<
+calls=10000 1689
+1689 17351
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_lock!
+calls=10000 1697
+1697 807743
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_group!
+calls=10000 1694
+1694 88941
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#add_joins!
+calls=10000 1691
+1691 240296
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#default_select
+calls=10000 1688
+1688 39981
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=80000 1695
+1695 233940
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Class#superclass
+0 71998
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#construct_attributes_from_arguments
+1968 140689
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#each_with_index
+calls=10000 1970
+1970 104095
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#has_key?
+0 22898
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::User(id: integer, user_name: string)>#find_by_id
+1890 183963
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#validate_find_options
+calls=10000 1897
+1897 269033
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#set_readonly_option!
+calls=10000 1898
+1898 486757
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/array/extract_options.rb
+cfn=ActiveSupport::CoreExtensions::Array::ExtractOptions#extract_options!
+calls=10000 1891
+1891 81586
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#find
+calls=10000 1905
+1905 12929424
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#construct_attributes_from_arguments
+calls=10000 1892
+1892 244784
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#merge
+calls=10000 1905
+1905 65212
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 1900
+1900 31449
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_joins!
+1786 186388
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1787
+1787 11071
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=40000 1797
+1797 42837
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#__send__
+0 7
+cfl=/Users/luke/rails2_simple_benchmark/test/performance/active_record_find_test.rb
+cfn=ActiveRecordFindTest#test_a_lot_of_find_calls
+calls=1 57
+57 14374820
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActiveRecord::Base>#connection_handler
+17 140949
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#to_s
+0 40556
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#===
+0 243744
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#block_given?
+0 11276
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Time>#now
+0 71867
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Time#initialize
+calls=20000 309
+309 25452
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=20000 309
+309 25533
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Mysql#query
+0 288784
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Object#initialize
+calls=10000 320
+320 21679
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Mysql::Result#each_hash
+0 14703
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+324 434625
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 281072
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 137179
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 280977
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 137861
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 280327
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 136537
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 293478
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 137289
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 277085
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 137449
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 272948
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 134412
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 325
+325 273492
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=10000 326
+326 134746
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+94 415039
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 67386
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10386
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 67614
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10510
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 66921
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10191
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 67656
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10278
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 67766
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10356
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 65106
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10183
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=10000 95
+95 65838
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 95
+95 10243
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#scope
+2182 162868
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#current_scoped_methods
+calls=10000 2183
+2183 187474
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#current_scoped_methods
+calls=10000 2183
+2183 175909
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#current_scoped_methods
+calls=10000 2183
+2183 160114
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#current_scoped_methods
+calls=10000 2183
+2183 159750
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_order!
+1739 94171
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1740
+1740 10592
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#each
+0 316008
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=10000 1970
+1970 11457
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=10000 1970
+1970 14037
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=10000 1500
+1500 38278
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#sanitize_sql
+calls=10000 1499
+1499 4212234
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#blank?
+calls=10000 1498
+1498 11359
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=10000 1500
+1500 12292
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=10000 2378
+2378 12165
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=20000 2374
+2374 24394
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::AbstractAdapter#log
+194 133904
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::AbstractAdapter#log_info
+calls=10000 199
+199 87340
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#block_given?
+calls=10000 195
+195 11276
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb
+cfn=<Module::Benchmark>#ms
+calls=10000 197
+197 1176423
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Float#+
+calls=10000 198
+198 11597
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#quoted_table_name
+3102 114392
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::User(id: integer, user_name: string)>#table_name
+calls=10000 3103
+3103 21152
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 3103
+3103 575057
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote_table_name
+calls=10000 3103
+3103 43056
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::User(id: integer, user_name: string)>#table_name
+calls=10000 3103
+3103 20661
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 3103
+3103 574375
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote_table_name
+calls=10000 3103
+3103 42539
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote_column_name
+237 32444
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 238
+238 11727
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#to_sym
+0 10761
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/testing/performance.rb
+fn=ActiveSupport::Testing::Performance::Profiler#run
+177 612
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=1 57
+57 14374827
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#select
+593 109432
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#execute
+calls=10000 595
+595 1457628
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mysql#query_with_result=
+calls=10000 594
+594 11360
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mysql::Result#free
+calls=10000 597
+597 17468
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=Mysql::Result#all_hashes
+calls=10000 596
+596 69419
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#collect!
+0 11993
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_group!
+1752 77803
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1757
+1757 11138
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>#connection
+114 212559
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 544311
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 543405
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 540730
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 555363
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 537098
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 528754
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=10000 115
+115 531021
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#==
+0 76288
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#finder_needs_type_condition?
+1398 41553
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1400
+1400 10927
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#>=
+0 10646
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#expand_hash_conditions_for_aggregates
+2269 57829
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=10000 2271
+2271 374977
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/quoting.rb
+fn=ActiveRecord::ConnectionAdapters::Quoting#quote
+6 224866
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=70000 24
+24 72156
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=10000 24
+24 14255
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=10000 8
+8 11826
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#find_by_sql
+660 89075
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 661
+661 560677
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#sanitize_sql
+calls=10000 661
+661 181667
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 661
+661 14529
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+cfn=ActiveRecord::ConnectionAdapters::QueryCache#select_all
+calls=10000 661
+661 1754252
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#collect!
+calls=10000 661
+661 11993
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#map
+0 26217
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=10000 2305
+2305 1080730
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#attribute_condition
+1994 168075
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=40000 1998
+1998 43471
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#===
+calls=10000 1996
+1996 39469
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#safe_to_array
+1724 113638
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=20000 1726
+1726 23616
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/array/extract_options.rb
+fn=ActiveSupport::CoreExtensions::Array::ExtractOptions#extract_options!
+14 117508
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 15
+15 11172
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=10000 15
+15 13726
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#pop
+calls=10000 15
+15 10929
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 15
+15 10336
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=10000 15
+15 11188
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_limit!
+1766 90410
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1767
+1767 10335
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 1774
+1774 566366
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+cfn=ActiveRecord::ConnectionAdapters::MysqlAdapter#add_limit_offset!
+calls=10000 1774
+1774 283848
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#size
+0 10301
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+347 1303232
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 87857
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10241
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14117
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 32119
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10787
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14072
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 12408
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 86205
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10263
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 15661
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 33531
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10963
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 13006
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11745
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 86417
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10426
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14891
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 32433
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10986
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 13798
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11564
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 87055
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10295
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 15912
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 32802
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 11356
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14534
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11477
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 86762
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10280
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14348
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 32048
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10887
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14429
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11535
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 85509
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10329
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 13593
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 31222
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10821
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 13817
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11359
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=10000 351
+351 86003
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=10000 351
+351 10164
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14259
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 31721
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=10000 350
+350 10488
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=10000 348
+348 14176
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 348
+348 11284
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#default_select
+1678 39981
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#keys
+0 30920
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#first
+0 23068
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#[]=
+0 27140
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#raise_if_bind_arity_mismatch
+2397 40463
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=10000 2398
+2398 10585
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#uniq
+0 19487
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#update
+0 14650
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#find_every
+1547 191354
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#merge_includes
+calls=10000 1548
+1548 246086
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#construct_finder_sql
+calls=10000 1553
+1553 8550240
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scope
+calls=10000 1548
+1548 200345
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=20000 1554
+1554 70745
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#find_by_sql
+calls=10000 1553
+1553 2612193
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=20000 1559
+1559 65094
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#dup
+0 32359
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Array>#allocate
+calls=10000 2352
+2352 11407
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#initialize_copy
+calls=10000 2352
+2352 11140
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>#retrieve_connection
+122 290256
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 481848
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 20315
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 481003
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 20433
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 479291
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 19912
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 492863
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 20398
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 476024
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 20286
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 468761
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 19876
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=10000 123
+123 469687
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=10000 123
+123 19729
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Time#to_f
+0 21758
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#count
+0 18765
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#quote
+226 93440
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=20000 227
+227 23507
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/quoting.rb
+cfn=ActiveRecord::ConnectionAdapters::Quoting#quote
+calls=10000 233
+233 323103
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+fn=ActiveRecord::ConnectionAdapters::DatabaseStatements#add_lock!
+216 71867
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=10000 219
+219 12210
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#===
+calls=10000 218
+218 31714
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=10000 217
+217 31327
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=NilClass#blank?
+23 42813
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#<<
+0 48291
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+fn=ActiveRecord::ConnectionAdapters::DatabaseStatements#sanitize_limit
+280 65468
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#to_i
+calls=10000 284
+284 9968
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=10000 281
+281 13876
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#respond_to?
+0 25601
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#kind_of?
+0 23507
+
+fl=/Users/luke/rails2_simple_benchmark/test/performance/active_record_find_test.rb
+fn=ActiveRecordFindTest#test_a_lot_of_find_calls
+6 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#times
+calls=1 7
+7 14374816
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Mysql#query_with_result=
+0 11360
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Float#-
+0 10696
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb
+fn=ActiveRecord::ConnectionAdapters::MysqlAdapter#add_limit_offset!
+369 128624
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<<
+calls=10000 373
+373 11989
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+cfn=ActiveRecord::ConnectionAdapters::DatabaseStatements#sanitize_limit
+calls=10000 371
+371 89312
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=10000 373
+373 12425
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=20000 372
+372 41498
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#[]
+0 681685
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 2416
+2416 11697
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 1900
+1900 10562
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 2416
+2416 11792
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=20000 1559
+1559 22737
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=70000 1695
+1695 76478
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 10740
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 12039
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 45
+45 11729
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 11122
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 11316
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 11172
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 372
+372 10899
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 10860
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 217
+217 11038
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=10000 348
+348 11029
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=Mysql::Result#all_hashes
+1 54716
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mysql::Result#each_hash
+calls=10000 3
+3 14703
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#find
+607 136158
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#===
+calls=10000 613
+613 10090
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#first
+calls=10000 612
+612 11321
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#validate_find_options
+calls=10000 609
+609 257028
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#set_readonly_option!
+calls=10000 610
+610 388089
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/array/extract_options.rb
+cfn=ActiveSupport::CoreExtensions::Array::ExtractOptions#extract_options!
+calls=10000 608
+608 93273
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#find_initial
+calls=10000 613
+613 12033465
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/keys.rb
+fn=ActiveSupport::CoreExtensions::Hash::Keys#assert_valid_keys
+45 178627
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#flatten
+calls=10000 46
+46 83973
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#-
+calls=10000 46
+46 32579
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=10000 47
+47 10686
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#keys
+calls=10000 46
+46 15095
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#flatten
+calls=10000 46
+46 72729
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#-
+calls=10000 46
+46 34301
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=10000 47
+47 10458
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#keys
+calls=10000 46
+46 15825
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#initialize_copy
+0 13220
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#current_scoped_methods
+2192 163855
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 2193
+2193 10710
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scoped_methods
+calls=10000 2193
+2193 134951
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 2193
+2193 10942
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scoped_methods
+calls=10000 2193
+2193 123761
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 2193
+2193 10627
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scoped_methods
+calls=10000 2193
+2193 109188
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#last
+calls=10000 2193
+2193 10526
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#scoped_methods
+calls=10000 2193
+2193 108687
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#add_lock!
+1779 90820
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1780
+1780 11015
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+cfn=ActiveRecord::ConnectionAdapters::DatabaseStatements#add_lock!
+calls=10000 1782
+1782 147118
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=10000 1782
+1782 558790
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Hash>#allocate
+0 15540
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=NilClass#nil?
+0 10851
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#blank?
+0 21603
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#is_a?
+0 75977
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#replace_bind_variables
+2350 98490
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#raise_if_bind_arity_mismatch
+calls=10000 2351
+2351 51048
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=10000 2351
+2351 10301
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#dup
+calls=10000 2352
+2352 54906
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#count
+calls=10000 2351
+2351 18765
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#gsub
+calls=10000 2353
+2353 1219919
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+fn=ActiveRecord::ConnectionAdapters::QueryCache#select_all
+58 55147
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/database_statements.rb
+cfn=ActiveRecord::ConnectionAdapters::DatabaseStatements#select_all_without_query_cache
+calls=10000 62
+62 1699105
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Object#initialize
+0 21679
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#==
+0 10585
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#debug?
+74 34379
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=10000 75
+75 10646
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#any?
+0 48137
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=20000 1554
+1554 22608
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#merge_includes
+1703 76896
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#safe_to_array
+calls=20000 1704
+1704 137254
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#uniq
+calls=10000 1704
+1704 19487
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#+
+calls=10000 1704
+1704 12449
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#validate_find_options
+2406 71788
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/keys.rb
+cfn=ActiveSupport::CoreExtensions::Hash::Keys#assert_valid_keys
+calls=10000 2407
+2407 233017
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/keys.rb
+cfn=ActiveSupport::CoreExtensions::Hash::Keys#assert_valid_keys
+calls=10000 2407
+2407 221256
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#each_with_index
+0 23238
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=10000 1970
+1970 80857
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+fn=<Class::ActiveRecord::Base>#sanitize_sql_hash_for_conditions
+2302 115651
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#map
+calls=10000 2305
+2305 1106947
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#values
+calls=10000 2321
+2321 16207
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#expand_range_bind_variables
+calls=10000 2321
+2321 207593
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#replace_bind_variables
+calls=10000 2321
+2321 1453429
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=10000 2305
+2305 16111
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/base.rb
+cfn=<Class::ActiveRecord::Base>#expand_hash_conditions_for_aggregates
+calls=10000 2303
+2303 432806
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#===
+0 49699
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 1996
+1996 11207
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=10000 218
+218 10277
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#merge
+0 36452
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=10000 1905
+1905 15540
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=10000 1905
+1905 13220
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#to_s
+0 14656
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#<<
+0 24457
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Float#+
+0 11597
+

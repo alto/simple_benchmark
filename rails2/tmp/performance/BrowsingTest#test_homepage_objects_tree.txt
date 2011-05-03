@@ -1,0 +1,6286 @@
+events: allocations
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=String#blank?
+49 6
+
+fl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>#recognize
+1 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#match
+calls=1 2
+2 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#match
+calls=6 2
+2 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#flush
+95 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mutex#synchronize
+calls=1 96
+96 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mutex#synchronize
+calls=1 96
+96 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mutex#synchronize
+calls=1 96
+96 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mutex#synchronize
+calls=1 96
+96 4
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=ActionController::Base#rescue_handlers
+5 1
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::ActionController::Base>#rescue_handlers
+calls=1 6
+6 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 6
+6 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#each_pair
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#include?
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=2 497
+497 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 162
+162 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 417
+417 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 417
+417 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=2 102
+102 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Time>#allocate
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#<<
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Regexp#match
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::ClassMethods#call_with_exception
+62 7
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=<Class::Rack::Request>#new
+calls=1 63
+63 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 64
+64 19
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 64
+64 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/filters.rb
+cfn=ActionController::Filters::InstanceMethods#process
+calls=1 65
+65 7048
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 64
+64 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#new
+calls=1 65
+65 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#assign_shortcuts
+1278 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#session
+calls=1 1282
+1282 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#parameters
+calls=1 1279
+1279 126
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#inspect
+0 2
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#performed?
+1341 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+fn=ActionView::Template::EagerPath#[]
+74 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 76
+76 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 76
+76 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+fn=ActionView::Renderable#method_name
+45 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_sym
+calls=1 52
+52 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable#method_name_without_locals
+calls=1 50
+50 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 46
+46 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_sym
+calls=1 52
+52 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable#method_name_without_locals
+calls=1 50
+50 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 46
+46 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_sym
+calls=1 52
+52 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable#method_name_without_locals
+calls=1 50
+50 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 46
+46 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_sym
+calls=1 52
+52 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable#method_name_without_locals
+calls=1 50
+50 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 46
+46 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+324 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+calls=1 325
+325 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+calls=1 326
+326 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#raise
+0 58
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#set_backtrace
+calls=1 66
+66 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#backtrace
+calls=1 66
+66 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Exception>#exception
+calls=1 66
+66 3
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#===
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#Array
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_a
+calls=1 229
+229 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#class
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#detect
+0 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 81
+81 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner#clean
+23 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner#silence
+calls=1 24
+24 3297
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner#filter
+calls=1 24
+24 3074
+
+fl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/erb.rb
+fn=ERB::Util#h
+788 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 789
+789 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#gsub
+calls=4 789
+789 10
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#included
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#convert_key
+115 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=4 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=4 116
+116 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=4 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=1 116
+116 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#key?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#response_code_for_rescue
+173 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=1 174
+174 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#rescue_responses
+calls=1 174
+174 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 174
+174 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 174
+174 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#prepare!
+141 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#convert_cookies!
+calls=1 147
+147 11
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#convert_language!
+calls=1 146
+146 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#convert_content_type!
+calls=1 145
+145 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#set_content_length!
+calls=1 144
+144 14
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#handle_conditional_get!
+calls=1 143
+143 11
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#assign_default_content_type_and_charset!
+calls=1 142
+142 48
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#request_uri
+338 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 339
+339 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#nil?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#assign_names
+1345 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#params
+calls=1 1346
+1346 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 1346
+1346 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#auto_flush
+115 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#flush
+calls=1 116
+116 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#flush
+calls=1 116
+116 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 116
+116 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=1 116
+116 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#flush
+calls=1 116
+116 6
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_content_type
+358 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 359
+359 13
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#call
+34 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#_call
+calls=1 35
+35 8148
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#dup
+calls=1 35
+35 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#dup
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 35
+35 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#initialize_copy
+calls=1 35
+35 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 91
+91 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 91
+91 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 82
+82 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#initialize_copy
+calls=1 82
+82 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::String>#allocate
+calls=1 124
+124 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#initialize_copy
+calls=1 124
+124 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#template
+290 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base#protected_instance_variables
+21 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#render_for_file
+1238 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#logger
+calls=2 1240
+1240 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#render
+calls=1 1241
+1241 46
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#info
+calls=1 1240
+1240 13
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Template#path_without_format_and_extension
+calls=1 1239
+1239 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#render_for_text
+calls=1 1241
+1241 7
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#+
+calls=1 1240
+1240 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=1 1240
+1240 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 1239
+1239 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Comparable#>=
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<=>
+calls=1 316
+316 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#==
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#_evaluate_assigns_and_ivars
+308 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 310
+310 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#_copy_ivars_from_controller
+calls=1 311
+311 20
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#content_type
+75 18
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=2 76
+76 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 76
+76 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 76
+76 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=1 77
+77 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 76
+76 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 76
+76 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=1 77
+77 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 76
+76 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 76
+76 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=1 77
+77 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 76
+76 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 76
+76 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 76
+76 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=1 77
+77 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#block_given?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#blank?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#eql?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_input
+205 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 207
+207 27
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#include
+0 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/builder-2.1.2/lib/blankslate.rb
+cfn=Module#append_features
+calls=1 216
+216 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#included
+calls=1 216
+216 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base::ProxyModule#include
+215 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#include
+calls=1 216
+216 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#extend
+calls=1 217
+217 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#clear_buffer
+123 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 124
+124 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#send_response
+530 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=2 532
+532 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#prepare!
+calls=1 531
+531 99
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>#logger
+17 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#[]
+0 7
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb
+fn=ActionController::Session::CookieStore#call
+89 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 91
+91 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 90
+90 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=1 98
+98 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#dup
+calls=1 91
+91 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=3 98
+98 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+cfn=ActionController::RewindableInput#call
+calls=1 93
+93 7390
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 98
+98 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Class#new_without_capture
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Object#initialize
+calls=1 478
+478 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 478
+478 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session#https?
+116 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#normalize_parameters
+468 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess#with_indifferent_access
+calls=1 480
+480 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 479
+479 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 470
+470 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=1 471
+471 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess#with_indifferent_access
+calls=1 480
+480 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 479
+479 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 470
+470 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=1 471
+471 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#request_parameters
+427 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 428
+428 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#POST
+calls=1 428
+428 53
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#normalize_parameters
+calls=1 428
+428 5
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 428
+428 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher#_call
+109 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher#dispatch
+calls=1 111
+111 7347
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+fn=ActionController::RewindableInput::RewindableIO#method_missing
+9 5
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 11
+11 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=3 15
+15 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::InputWrapper#read
+calls=1 11
+11 11
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=ActionController::Base#request
+1 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#each
+150 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#each_line
+calls=1 155
+155 352
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 151
+151 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 151
+151 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/query_cache.rb
+fn=ActiveRecord::QueryCache#call
+27 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/query_cache.rb
+cfn=ActiveRecord::QueryCache::ClassMethods#cache
+calls=1 28
+28 7367
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#scan
+0 3
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#>
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#rescue_action_locally
+130 14
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=1 136
+136 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_set
+calls=3 133
+133 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type=
+calls=1 136
+136 30
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#render
+calls=1 133
+133 113
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#render_for_file
+calls=1 137
+137 79
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#rescues_path
+calls=1 137
+137 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#template_path_for_local_rescue
+calls=1 133
+133 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#response_code_for_rescue
+calls=1 137
+137 2
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=ActionController::Base#response
+1 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#respond_to?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Class#new
+0 22
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#initialize
+calls=1 328
+328 37
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#initialize
+calls=1 317
+317 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 317
+317 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 328
+328 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#initialize
+calls=2 292
+292 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::StringIO>#allocate
+calls=2 292
+292 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::ErrorWrapper#initialize
+calls=1 44
+44 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::InputWrapper#initialize
+calls=1 43
+43 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=2 44
+44 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 90
+90 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/abstract_store.rb
+cfn=ActionController::Session::AbstractStore::SessionHash#initialize
+calls=1 90
+90 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 24
+24 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+cfn=ActionController::RewindableInput::RewindableIO#initialize
+calls=1 24
+24 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 24
+24 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#initialize
+calls=1 24
+24 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 24
+24 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#initialize
+calls=1 24
+24 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 24
+24 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#initialize
+calls=1 24
+24 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#initialize
+calls=1 64
+64 17
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 64
+64 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#initialize
+calls=1 44
+44 10
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 44
+44 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/test_case.rb
+cfn=ActionView::Base#initialize
+calls=1 1272
+1272 19
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 1272
+1272 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 7
+7 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 7
+7 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Module>#allocate
+calls=1 225
+225 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base::ProxyModule#initialize
+calls=1 225
+225 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Array>#allocate
+calls=1 205
+205 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+cfn=ActionView::PathSet#initialize
+calls=1 205
+205 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#initialize
+calls=1 11
+11 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::StringIO>#allocate
+calls=1 11
+11 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 136
+136 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#initialize
+calls=1 136
+136 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 136
+136 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#initialize
+calls=1 136
+136 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 85
+85 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#initialize
+calls=1 85
+85 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 136
+136 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#initialize
+calls=1 136
+136 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 1291
+1291 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/url_rewriter.rb
+cfn=ActionController::UrlRewriter#initialize
+calls=1 1291
+1291 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 85
+85 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#initialize
+calls=1 85
+85 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#initialize
+calls=1 181
+181 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Regexp>#allocate
+calls=1 181
+181 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#log_processing_for_request_id
+1301 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#logger
+calls=1 1306
+1306 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#upcase
+calls=1 1304
+1304 1
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#request
+calls=1 1304
+1304 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#info
+calls=1 1306
+1306 13
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<<
+calls=1 1304
+1304 0
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#params
+calls=1 1303
+1303 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=1 1302
+1302 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=1 1304
+1304 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#method
+calls=1 1304
+1304 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#request_origin
+calls=1 1304
+1304 18
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 1303
+1303 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 1302
+1302 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Exception#message
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#to_s
+calls=1 85
+85 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#to_s
+calls=1 2
+2 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb
+fn=Rack::Lock#call
+9 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 13
+13 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Mutex#synchronize
+calls=1 11
+11 7399
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 10
+10 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#kind_of?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/object/misc.rb
+fn=Object#returning
+38 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Runner#copy_session_variables!
+calls=1 499
+499 13
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#inspect
+0 88
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#map!
+0 15
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+cfn=<Class::ActionView::PathSet>#type_cast
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 16
+16 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#convert_key
+calls=4 18
+18 4
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#[]=
+0 12
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+fn=Mime::Type#to_s
+152 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Exception>#exception
+0 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Object>#allocate
+calls=1 66
+66 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::RoutingError#initialize
+calls=1 66
+66 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+fn=ActionView::PathSet#load!
+39 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 40
+40 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_proc
+calls=1 40
+40 2
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>#relative_url_root
+17 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb
+fn=ActionController::ParamsParser#parse_formatted_parameters
+19 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=<Class::Rack::Request>#new
+calls=1 20
+20 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#content_length
+calls=1 22
+22 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#zero?
+calls=1 22
+22 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Time#strftime
+0 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#info
+70 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#add
+calls=1 71
+71 12
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#add
+calls=1 71
+71 12
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#rescues_path
+165 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath#[]
+calls=1 166
+166 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath#[]
+calls=1 166
+166 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/reverse_merge.rb
+fn=ActiveSupport::CoreExtensions::Hash::ReverseMerge#reverse_merge
+21 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#merge
+calls=1 22
+22 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#merge
+calls=1 22
+22 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Exception#set_backtrace
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=<Class::ActionController::Base>#master_helper_module
+1 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#read_inheritable_attribute
+calls=1 2
+2 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::RoutingError#initialize
+15 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#initialize
+calls=1 16
+16 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#form_data?
+416 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#content_type
+calls=1 417
+417 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#include?
+calls=1 417
+417 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+cfn=Mime::Type#to_s
+calls=1 417
+417 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#each
+0 287
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=14 148
+148 42
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#include?
+calls=22 147
+147 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=14 148
+148 14
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 191
+191 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=4 199
+199 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#to_ary
+calls=1 197
+197 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=1 197
+197 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=4 196
+196 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=4 348
+348 13
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=4 348
+348 24
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=24 346
+346 84
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#+
+calls=4 346
+346 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=8 346
+346 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=8 346
+346 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=1 364
+364 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 364
+364 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 363
+363 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 363
+363 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=1 381
+381 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 381
+381 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=2 378
+378 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 388
+388 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=2 378
+378 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=4 191
+191 16
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#object_id
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#lambda
+0 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#remote_ip
+217 5
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#blank?
+calls=1 220
+220 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#scan
+calls=1 218
+218 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#include?
+calls=1 226
+226 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 222
+222 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#reject
+calls=1 221
+221 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 247
+247 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+fn=ActionView::Renderable#recompile?
+91 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Regexp#initialize
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/status_codes.rb
+fn=ActionController::StatusCodes#interpret_status
+74 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=2 78
+78 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/status_codes.rb
+cfn=ActionController::StatusCodes#interpret_status
+calls=1 80
+80 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 80
+80 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 76
+76 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 77
+77 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#strip
+calls=1 77
+77 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 77
+77 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#charset=
+82 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type
+calls=1 85
+85 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 85
+85 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#initialize
+42 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#lambda
+calls=1 46
+46 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 44
+44 12
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#initialize_copy
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#render
+250 12
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+cfn=ActionView::PathSet#find_template
+calls=1 259
+259 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/reverse_merge.rb
+cfn=ActiveSupport::CoreExtensions::Hash::ReverseMerge#reverse_merge
+calls=1 255
+255 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 254
+254 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template_format
+calls=1 259
+259 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 260
+260 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+cfn=ActionView::Template#render_template
+calls=1 260
+260 97
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+cfn=ActionView::PathSet#find_template
+calls=1 259
+259 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/reverse_merge.rb
+cfn=ActiveSupport::CoreExtensions::Hash::ReverseMerge#reverse_merge
+calls=1 255
+255 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 254
+254 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template_format
+calls=1 259
+259 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 260
+260 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+cfn=ActionView::Template#render_template
+calls=1 260
+260 38
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#etag?
+114 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#include?
+calls=1 115
+115 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Runner#copy_session_variables!
+543 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 545
+545 9
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#parameters
+380 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess#with_indifferent_access
+calls=1 381
+381 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#query_parameters
+calls=1 381
+381 48
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#path_parameters
+calls=1 381
+381 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#merge
+calls=1 381
+381 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 381
+381 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#request_parameters
+calls=1 381
+381 61
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=Object#present?
+17 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=String#blank?
+calls=3 18
+18 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session#encode_cookies
+372 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#inject
+calls=1 373
+373 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#path
+363 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>#relative_url_root
+calls=1 365
+365 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#request_uri
+calls=1 364
+364 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#sub!
+calls=1 365
+365 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 364
+364 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 364
+364 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_s
+calls=1 365
+365 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Thread>#current
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#buffer
+119 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 120
+120 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#empty?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#sub
+0 547
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base#rescue_templates
+21 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/test_process.rb
+fn=ActionController::ProcessWithTest#set_test_assigns
+563 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_names
+calls=1 565
+565 14
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 565
+565 18
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>#protected_instance_variables
+calls=1 565
+565 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#-
+calls=1 565
+565 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 565
+565 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#query_parameters
+421 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 422
+422 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#normalize_parameters
+calls=1 422
+422 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#GET
+calls=1 422
+422 40
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 422
+422 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#[]
+0 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 87
+87 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 64
+64 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 428
+428 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 422
+422 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 106
+106 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 402
+402 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#default
+calls=1 1346
+1346 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#default
+calls=1 1303
+1303 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 224
+224 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 256
+256 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#default
+calls=1 184
+184 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 203
+203 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=4 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=4 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=2 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=2 196
+196 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 120
+120 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 120
+120 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#to_i
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+fn=ActionView::PathSet#find_template
+43 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 44
+44 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 44
+44 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+fn=ActionView::Renderable#compile
+57 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#method_name
+calls=1 58
+58 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#recompile?
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#method_defined?
+calls=1 60
+60 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#method_name
+calls=1 58
+58 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#recompile?
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#method_defined?
+calls=1 60
+60 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#inspect
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=FalseClass#to_s
+calls=1 63
+63 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#to_s
+calls=2 63
+63 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=TrueClass#to_s
+calls=3 63
+63 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=2 63
+63 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#downcase
+0 46
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#<
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/except.rb
+fn=ActiveSupport::CoreExtensions::Hash::Except#except!
+17 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 19
+19 16
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#map!
+calls=1 18
+18 16
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 18
+18 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#to_sym
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#assign_default_content_type_and_charset!
+136 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#charset
+calls=1 138
+138 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type
+calls=1 137
+137 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#charset=
+calls=1 138
+138 18
+cfl=/Users/luke/rails2_simple_benchmark/(__DELEGATION__)
+cfn=ActionController::Response#default_charset
+calls=1 138
+138 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#sending_file?
+calls=1 138
+138 4
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#+
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods#new
+477 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new_without_capture
+calls=1 478
+478 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation
+calls=1 479
+479 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation=
+calls=1 479
+479 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#dup
+84 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 85
+85 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 85
+85 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/url_rewriter.rb
+fn=ActionController::UrlRewriter#initialize
+157 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+fn=ActionView::Renderable#render_without_template_tracking
+27 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#compile
+calls=1 28
+28 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#with_template
+calls=1 30
+30 88
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#compile
+calls=1 28
+28 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#with_template
+calls=1 30
+30 29
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#initialize_copy
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#request_method
+34 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#request_method
+calls=1 35
+35 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 35
+35 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#request_method
+calls=1 35
+35 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 35
+35 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Exception#initialize
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#initialize
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Object>#allocate
+0 14
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#method
+42 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 43
+43 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#request_method
+calls=2 43
+43 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 43
+43 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#request_method
+calls=2 43
+43 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#inspect
+0 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=37 63
+63 37
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#inspect
+calls=1 63
+63 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#inspect
+calls=6 63
+63 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#inspect
+calls=2 66
+66 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#select
+0 13
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#find
+calls=6 59
+59 79
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint::InputWrapper#initialize
+217 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#send
+0 14
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::ActionController::Dispatcher>#before_dispatch_callback_chain
+calls=1 276
+276 0
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::ActionController::Dispatcher>#after_dispatch_callback_chain
+calls=1 276
+276 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 90
+90 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#reverse_each
+calls=1 90
+90 27
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base::ProxyModule#include
+calls=1 1273
+1273 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#rescue_action
+calls=1 523
+523 6661
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#_set_controller_content_type
+calls=1 32
+32 34
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/routing_error.erb
+cfn=ActionView::Base::CompiledTemplates#_run_erb_47Users47luke4746rvm47gems47ree451468467452010460247gems47actionpack45246346247lib47action_controller47templates47rescues47routing_error46erb
+calls=1 34
+34 19
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#_evaluate_assigns_and_ivars
+calls=1 31
+31 21
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/layout.erb
+cfn=ActionView::Base::CompiledTemplates#_run_erb_47Users47luke4746rvm47gems47ree451468467452010460247gems47actionpack45246346247lib47action_controller47templates47rescues47layout46erb
+calls=1 34
+34 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#_set_controller_content_type
+calls=1 32
+32 12
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#_evaluate_assigns_and_ivars
+calls=1 31
+31 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher#flush_logger
+calls=1 178
+178 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/abstract_store.rb
+cfn=ActionController::Session::AbstractStore::SessionHash#loaded?
+calls=1 98
+98 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/test_process.rb
+cfn=ActionController::ProcessWithTest#set_test_assigns
+calls=1 345
+345 36
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/routing_error.erb
+fn=ActionView::Base::CompiledTemplates#_run_erb_47Users47luke4746rvm47gems47ree451468467452010460247gems47actionpack45246346247lib47action_controller47templates47rescues47routing_error46erb
+0 5
+cfl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/erb.rb
+cfn=ERB::Util#h
+calls=1 2
+2 14
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 2
+2 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#message
+calls=1 2
+2 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 3
+3 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#concat
+calls=4 10
+10 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#set_content_length!
+214 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 215
+215 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#bytesize
+calls=1 220
+220 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 220
+220 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 220
+220 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=2 219
+219 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=2 219
+219 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=2 219
+219 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=2 220
+220 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#each
+417 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#each
+calls=1 420
+420 353
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 437
+437 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#strip
+0 2
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb
+fn=ActionController::Failsafe#call
+10 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb
+cfn=ActionController::Session::CookieStore#call
+calls=1 11
+11 7396
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=StringIO#initialize
+0 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Object#initialize
+calls=2 292
+292 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Object#initialize
+calls=1 11
+11 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#extend_object
+0 6
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#extend
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#extend_object
+calls=1 217
+217 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#extended
+calls=1 217
+217 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#extend_object
+calls=1 358
+358 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#extended
+calls=1 358
+358 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#initialize_copy
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=ActionController::Base#params
+1 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=IO#write
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher#flush_logger
+114 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>#logger
+calls=1 115
+115 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#flush
+calls=1 115
+115 4
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Class#superclass
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=NilClass#to_s
+0 6
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#convert_language!
+224 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 225
+225 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/abstract_store.rb
+fn=ActionController::Session::AbstractStore::SessionHash#loaded?
+56 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+fn=ActiveRecord::ConnectionAdapters::QueryCache#cache
+31 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+cfn=ActiveRecord::ConnectionAdapters::QueryCache#clear_query_cache
+calls=1 36
+36 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 29
+29 7353
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks#run_callbacks
+275 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::CallbackChain#run
+calls=2 276
+276 27
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=2 276
+276 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=2 276
+276 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=2 276
+276 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#blank?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#=~
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#method_defined?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#_copy_ivars_from_controller
+316 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#protected_instance_variables
+calls=1 319
+319 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_names
+calls=1 318
+318 13
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 320
+320 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#-
+calls=1 319
+319 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 319
+319 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#<<
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+94 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+calls=1 95
+95 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 95
+95 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#+
+0 7
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#charset
+91 14
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 92
+92 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=2 92
+92 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 92
+92 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 92
+92 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=1 93
+93 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 92
+92 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 92
+92 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 92
+92 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 92
+92 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=1 93
+93 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 92
+92 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 92
+92 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 92
+92 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#String
+calls=1 92
+92 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=NilClass#blank?
+calls=1 93
+93 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session#get
+195 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session#process
+calls=1 196
+196 8651
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#initialize
+8 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#_call
+38 13
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_env
+calls=1 41
+41 474
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 44
+44 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=2 44
+44 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=1 40
+40 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_headers
+calls=1 51
+51 211
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_content_length
+calls=1 54
+54 23
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_content_type
+calls=1 53
+53 13
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_status
+calls=1 49
+49 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher#call
+calls=1 47
+47 7402
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 44
+44 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/layout.erb
+fn=ActionView::Base::CompiledTemplates#_run_erb_47Users47luke4746rvm47gems47ree451468467452010460247gems47actionpack45246346247lib47action_controller47templates47rescues47layout46erb
+0 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 26
+26 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#concat
+calls=3 26
+26 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet#recognize
+436 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/recognition_optimisation.rb
+cfn=ActionController::Routing::RouteSet#recognize_path
+calls=1 437
+437 168
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#path
+calls=1 437
+437 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet#extract_request_environment
+calls=1 437
+437 6
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation=
+45 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#[]=
+209 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=1 210
+210 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 212
+212 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 211
+211 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#delete
+calls=4 210
+210 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=8 212
+212 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=4 211
+211 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/test_case.rb
+fn=ActionView::Renderable#render
+14 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#render_without_template_tracking
+calls=1 20
+20 95
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 18
+18 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_get
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 18
+18 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 17
+17 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 15
+15 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#render_without_template_tracking
+calls=1 20
+20 36
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_get
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 18
+18 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 17
+17 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 15
+15 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback#evaluate_method
+174 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#shift
+calls=1 177
+177 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 176
+176 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=1 178
+178 7
+
+fl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>#recognize
+1 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#match
+calls=1 2
+2 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#match
+calls=6 2
+2 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+fn=<Class::ActionView::PathSet>#type_cast
+3 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 4
+4 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Runner#get
+495 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/object/misc.rb
+cfn=Object#returning
+calls=1 498
+498 15
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=1 498
+498 8653
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#include?
+calls=1 497
+497 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#to_sym
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#clear
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=Rack::Request#request_method
+37 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 37
+37 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 37
+37 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#<=
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#initialize
+6 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 7
+7 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 7
+7 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 7
+7 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 7
+7 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 7
+7 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::String>#allocate
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#instance_variable_set
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#=~
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#each
+0 2734
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#<
+calls=2 307
+307 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=12 140
+140 36
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=2 140
+140 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_s
+calls=2 140
+140 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#to_s
+calls=3 208
+208 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=3 208
+208 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=3 208
+208 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#to_s
+calls=3 279
+279 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=3 279
+279 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=3 279
+279 3
+cfl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>#recognize
+calls=6 59
+59 0
+cfl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>#recognize
+calls=6 59
+59 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#merge
+calls=12 59
+59 12
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath#load!
+calls=1 40
+40 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#delete
+calls=4 19
+19 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#map
+calls=6 58
+58 3061
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#reject
+calls=3 66
+66 3291
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#include?
+calls=513 24
+24 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_set
+calls=2 320
+320 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_get
+calls=2 320
+320 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#=~
+calls=2 183
+183 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 183
+183 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+cfn=Mime::Type#to_s
+calls=1 183
+183 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=3 350
+350 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=3 350
+350 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=4 568
+568 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=4 568
+568 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_get
+calls=2 566
+566 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=2 566
+566 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_variable_set
+calls=3 546
+546 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=3 546
+546 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id
+226 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#object_id
+calls=1 227
+227 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Thread>#current
+calls=1 227
+227 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint::ErrorWrapper#initialize
+288 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet#extract_request_environment
+483 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#method
+calls=1 484
+484 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base#logger
+21 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/rails-2.3.2/lib/initializer.rb
+fn=<Module::Rails>#backtrace_cleaner
+43 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#xhr?
+202 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#=~
+calls=1 203
+203 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 203
+203 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#any?
+0 120
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=114 25
+25 2518
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 182
+182 7
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 196
+196 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#[]
+205 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=2 206
+206 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=2 206
+206 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=4 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=2 206
+206 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 206
+206 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 206
+206 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Regexp>#allocate
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#empty?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base::ProxyModule#initialize
+211 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=<Module::Rack::Utils>#parse_nested_query
+53 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 56
+56 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 56
+56 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 56
+56 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 56
+56 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#log_error
+79 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/deprecation.rb
+cfn=<Module::ActiveSupport::Deprecation>#silence
+calls=1 80
+80 6400
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Regexp>#quote
+0 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_headers
+324 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 329
+329 205
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=1 326
+326 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 326
+326 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=1 326
+326 1
+
+fl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/set.rb
+fn=Set#include?
+157 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#include?
+calls=1 158
+158 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#include?
+calls=1 158
+158 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#to_s
+0 17
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=<Class::ActionView::Base>#process_view_paths
+204 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 205
+205 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#Array
+calls=1 205
+205 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#[]
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#initialize_template_class
+1271 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 1272
+1272 22
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=<Class::ActionController::Base>#view_paths
+calls=1 1272
+1272 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=1 1273
+1273 10
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=2 1273
+1273 0
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=<Class::ActionController::Base>#master_helper_module
+calls=1 1273
+1273 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#>=
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+fn=ActionView::Template::EagerPath#load!
+60 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=Rack::Request#GET
+105 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 106
+106 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 110
+110 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=<Module::Rack::Utils>#parse_nested_query
+calls=1 110
+110 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#query_string
+calls=3 110
+110 28
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 106
+106 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#find
+0 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=6 59
+59 73
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+fn=<Class::Mime::Type>#lookup
+65 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 66
+66 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#initialize
+189 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 191
+191 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 191
+191 36
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#session
+436 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 437
+437 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/time/conversions.rb
+fn=ActiveSupport::CoreExtensions::Time::Conversions#to_s
+47 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Time#strftime
+calls=1 49
+49 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 48
+48 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 49
+49 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+fn=ActionView::Renderable#method_name_without_locals
+69 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#String
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_s
+calls=1 76
+76 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_s
+calls=1 92
+92 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#sub!
+0 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#content_length
+80 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_i
+calls=1 81
+81 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=Rack::Request#content_length
+calls=1 81
+81 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=FalseClass#to_s
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#join
+0 5
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#concat
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#initialize
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#initialize_current_url
+1290 2
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#request
+calls=1 1291
+1291 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 1291
+1291 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#params
+calls=1 1291
+1291 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#clone
+calls=1 1291
+1291 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Time>#now
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Time#initialize
+calls=1 1372
+1372 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Time>#allocate
+calls=1 1372
+1372 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#template_format
+183 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#xhr?
+calls=1 186
+186 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 184
+184 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#parameters
+calls=1 184
+184 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_status
+318 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=1 320
+320 3
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Hash>#allocate
+0 25
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection_pool
+347 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=1 348
+348 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 348
+348 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=<Class::Rack::Request>#new
+20 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 24
+24 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=1 21
+21 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 24
+24 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=1 21
+21 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 24
+24 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=1 21
+21 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+fn=ActionController::RewindableInput::RewindableIO#initialize
+4 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 6
+6 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#initialize_without_template_tracking
+221 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 225
+225 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#view_paths=
+calls=1 226
+226 13
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#to_s
+0 7
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#inspect
+0 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=2 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#inspect
+calls=2 63
+63 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#clone
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 1291
+1291 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 1291
+1291 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#add
+58 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#auto_flush
+calls=1 65
+65 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>
+calls=1 59
+59 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 64
+64 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=1 64
+64 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#auto_flush
+calls=1 65
+65 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>
+calls=1 59
+59 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 64
+64 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=1 64
+64 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#auto_flush
+calls=1 65
+65 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>
+calls=1 59
+59 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 64
+64 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 63
+63 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=1 64
+64 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base#consider_all_requests_local
+21 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#render_for_text
+1244 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=2 1253
+1253 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 1254
+1254 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#===
+calls=1 1255
+1255 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 1256
+1256 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/status_codes.rb
+cfn=ActionController::StatusCodes#interpret_status
+calls=1 1247
+1247 4
+
+fl=/Users/luke/rails2_simple_benchmark/(__DELEGATION__)
+fn=ActionController::Response#default_charset
+1 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=1 2
+2 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#extended
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#update
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=StringIO#length
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class#inheritable_attributes
+91 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback#should_run_callback?
+194 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#flatten
+calls=2 196
+196 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#compact
+calls=2 196
+196 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 196
+196 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#all?
+calls=1 196
+196 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 196
+196 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::StringIO>#allocate
+0 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation
+25 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#process_without_filters
+514 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#process_cleanup
+calls=1 527
+527 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#send_response
+calls=1 525
+525 102
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#log_processing
+calls=1 522
+522 94
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#assign_names
+calls=1 520
+520 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=1 523
+523 6662
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#initialize_current_url
+calls=1 519
+519 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#assign_shortcuts
+calls=1 518
+518 130
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#initialize_template_class
+calls=1 517
+517 39
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#log_processing
+1294 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#log_processing_for_request_id
+calls=1 1296
+1296 50
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#logger
+calls=2 1295
+1295 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#info?
+calls=1 1295
+1295 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#log_processing_for_parameters
+calls=1 1297
+1297 39
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_content_length
+376 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 377
+377 23
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/rescuable.rb
+fn=ActiveSupport::Rescuable#handler_for_rescue
+78 2
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#rescue_handlers
+calls=1 81
+81 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=2 103
+103 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#Array
+calls=1 81
+81 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#reverse
+calls=1 81
+81 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#detect
+calls=1 81
+81 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Integer#to_i
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess#with_indifferent_access
+135 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 137
+137 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default=
+calls=1 137
+137 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 136
+136 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 137
+137 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default=
+calls=1 137
+137 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 136
+136 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default=
+calls=1 137
+137 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 136
+136 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#default
+calls=1 137
+137 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#merge
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=12 59
+59 12
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=12 59
+59 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 22
+22 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 22
+22 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Hash>#allocate
+calls=1 22
+22 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize_copy
+calls=1 22
+22 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#content_type
+88 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#strip
+calls=1 91
+91 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+cfn=<Class::Mime::Type>#lookup
+calls=1 91
+91 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 90
+90 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 91
+91 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb
+fn=Rack::Head#call
+8 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 11
+11 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionManagement#call
+calls=1 9
+9 7370
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 11
+11 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#to_hash
+194 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#inject
+calls=1 195
+195 31
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet#call
+430 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+cfn=<Class::Rack::Request>#new
+calls=1 431
+431 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet#recognize
+calls=1 432
+432 187
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint::Assertion#assert
+16 107
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 17
+17 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=9 17
+17 39
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=12 17
+17 24
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=14 17
+17 28
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=3 17
+17 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=3 17
+17 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=2 17
+17 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 17
+17 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 17
+17 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=24 17
+17 60
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=3 17
+17 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 17
+17 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=1 17
+17 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=32 17
+17 64
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_error
+276 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 278
+278 27
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#include?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Proc#call
+0 2466
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_of?
+calls=2 158
+158 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=3 200
+200 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#include?
+calls=3 189
+189 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#include?
+calls=1 162
+162 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=9 200
+200 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#include?
+calls=12 141
+141 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_of?
+calls=14 149
+149 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=3 209
+209 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=3 280
+280 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher#_call
+calls=1 82
+82 7348
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#dup
+calls=1 82
+82 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_of?
+calls=1 253
+253 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=1 244
+244 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#nil?
+calls=1 253
+253 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#<=
+calls=1 244
+244 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#sub
+calls=342 38
+38 547
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=114 25
+25 2632
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#to_i
+calls=1 320
+320 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=1 320
+320 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 327
+327 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#kind_of?
+calls=4 346
+346 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_of?
+calls=4 332
+332 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=4 335
+335 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=4 335
+335 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#to_i
+calls=1 365
+365 0
+cfl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/set.rb
+cfn=Set#include?
+calls=1 365
+365 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#to_i
+calls=1 382
+382 0
+cfl=/Users/luke/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/set.rb
+cfn=Set#include?
+calls=1 382
+382 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#instance_of?
+calls=32 423
+423 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#-
+0 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#process_cleanup
+1401 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#default=
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#instance_of?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=<Class::ActionController::Base>#rescue_handlers
+1 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#read_inheritable_attribute
+calls=1 2
+2 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#template_format
+278 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#request
+calls=1 282
+282 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#template_format
+calls=1 282
+282 7
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_sym
+calls=1 282
+282 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 279
+279 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+fn=ActionView::Template#path_without_format_and_extension
+69 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#to_s
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint::InputWrapper#read
+242 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#read
+calls=1 251
+251 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=1 246
+246 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=2 252
+252 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=1 246
+246 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#template_path_for_local_rescue
+169 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#rescues_path
+calls=1 170
+170 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#name
+calls=1 170
+170 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#rescue_templates
+calls=1 170
+170 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 170
+170 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 170
+170 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#==
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=NilClass#nil?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#<
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=Rack::Request#content_length
+39 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 39
+39 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Exception#backtrace
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=StringIO#read
+0 2
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActiveRecord::Base>#connection_handler
+17 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#log_processing_for_parameters
+1309 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#dup
+calls=1 1310
+1310 3
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#params
+calls=1 1310
+1310 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/except.rb
+cfn=ActiveSupport::CoreExtensions::Hash::Except#except!
+calls=1 1311
+1311 32
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#empty?
+calls=1 1313
+1313 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 1310
+1310 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=NilClass#blank?
+23 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#is_a?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#inject
+0 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 373
+373 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 195
+195 30
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Regexp#to_s
+0 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#last_modified?
+102 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#include?
+calls=1 103
+103 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class#read_inheritable_attribute
+112 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#inheritable_attributes
+calls=1 113
+113 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 113
+113 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class#inheritable_attributes
+calls=1 113
+113 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 113
+113 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods#clear_last_instantiation!
+473 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation=
+calls=1 474
+474 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=StringIO#rewind
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session#requestify
+397 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#nil?
+calls=1 405
+405 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=3 400
+400 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#delete
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=1 124
+124 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#hash
+calls=4 216
+216 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#clean_backtrace
+177 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#backtrace
+calls=1 178
+178 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner#clean
+calls=1 178
+178 6373
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/rails-2.3.2/lib/initializer.rb
+cfn=<Module::Rails>#backtrace_cleaner
+calls=1 178
+178 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 178
+178 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base#rescue_responses
+21 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Mutex#synchronize
+0 20
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb
+cfn=ActionController::Failsafe#call
+calls=1 11
+11 7397
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=2 98
+98 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=1 99
+99 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 97
+97 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#clear_buffer
+calls=1 104
+104 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=IO#write
+calls=1 99
+99 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=2 98
+98 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=1 99
+99 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 97
+97 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#clear_buffer
+calls=1 104
+104 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=IO#write
+calls=1 99
+99 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=2 98
+98 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=1 99
+99 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 97
+97 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#clear_buffer
+calls=1 104
+104 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=IO#write
+calls=1 99
+99 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#buffer
+calls=1 97
+97 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 97
+97 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#clear_buffer
+calls=1 104
+104 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#update
+45 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each_pair
+calls=1 46
+46 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=ActionController::Base#request_origin
+1369 4
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#request
+calls=1 1372
+1372 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Time>#now
+calls=1 1372
+1372 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/time/conversions.rb
+cfn=ActiveSupport::CoreExtensions::Time::Conversions#to_s
+calls=1 1372
+1372 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#remote_ip
+calls=1 1372
+1372 12
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#each_line
+0 224
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#<<
+calls=32 339
+339 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=32 422
+422 96
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=32 422
+422 32
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#to_s
+0 8
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+fn=ActionView::PathSet#initialize
+15 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#initialize
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#map!
+calls=1 16
+16 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session#process
+257 51
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=1 344
+344 0
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#request
+calls=1 343
+343 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 330
+330 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 300
+300 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#update
+calls=1 286
+286 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#length
+calls=1 286
+286 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#upcase
+calls=1 273
+273 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 264
+264 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 330
+330 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#each
+calls=1 339
+339 354
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Integer#to_i
+calls=1 325
+325 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=2 330
+330 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=4 328
+328 44
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=2 269
+269 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#+
+calls=1 321
+321 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#extend
+calls=1 358
+358 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session#encode_cookies
+calls=1 286
+286 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 286
+286 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#==
+calls=1 260
+260 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=1 345
+345 37
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#last_instantiation
+calls=1 342
+342 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 260
+260 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session#requestify
+calls=1 258
+258 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session#https?
+calls=3 277
+277 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=1 273
+273 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#call
+calls=1 320
+320 8150
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods#clear_last_instantiation!
+calls=1 312
+312 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 326
+326 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Comparable#>=
+calls=1 316
+316 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=2 336
+336 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#query_string
+332 15
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=3 333
+333 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=3 333
+333 10
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=Object#present?
+calls=3 333
+333 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=6 333
+333 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#upcase
+0 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Time#initialize
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#fatal
+70 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#add
+calls=1 71
+71 11
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#sending_file?
+132 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 133
+133 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 133
+133 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>#protected_instance_variables
+17 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#include?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=<Module::Rack::Utils::Multipart>#parse_multipart
+293 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 295
+295 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#gsub
+0 10
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+fn=Object#blank?
+12 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 13
+13 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#+
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#to_ary
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/recognition_optimisation.rb
+fn=ActionController::Routing::RouteSet#to_plain_segments
+123 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#split
+calls=1 127
+127 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#sub!
+calls=2 126
+126 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#dup
+calls=1 124
+124 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#<<
+calls=1 128
+128 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#merge
+90 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#dup
+calls=1 91
+91 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#update
+calls=1 91
+91 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+fn=ActionController::Request#path_parameters
+401 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 402
+402 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 402
+402 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Symbol#to_proc
+0 2
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::CallbackChain#run
+86 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#block_given?
+calls=2 89
+89 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=2 90
+90 27
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 87
+87 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#has_key?
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#==
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Exception#to_s
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#handle_conditional_get!
+181 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#nonempty_ok_response?
+calls=1 182
+182 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#etag?
+calls=1 182
+182 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#last_modified?
+calls=1 182
+182 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/testing/performance.rb
+fn=ActiveSupport::Testing::Performance::Profiler#run
+177 288
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#__send__
+calls=1 57
+57 8680
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb
+fn=Rack::MethodOverride#call
+12 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 13
+13 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 13
+13 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb
+cfn=Rack::Head#call
+calls=1 24
+24 7374
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActiveRecord::Base>#configurations
+17 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#with_template
+299 14
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Template#mime_type
+calls=1 32
+32 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template
+calls=1 300
+300 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template=
+calls=2 303
+303 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#method_name
+calls=1 34
+34 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=3 34
+34 77
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 32
+32 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+cfn=ActionView::Template#mime_type
+calls=1 32
+32 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template
+calls=1 300
+300 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#template=
+calls=2 303
+303 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/renderable.rb
+cfn=ActionView::Renderable#method_name
+calls=1 34
+34 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#send
+calls=3 34
+34 18
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 32
+32 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#instance_variable_names
+0 27
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#===
+0 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#==
+calls=1 1255
+1255 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#reverse_each
+0 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback#call
+calls=1 90
+90 23
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback#call
+165 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback#evaluate_method
+calls=1 166
+166 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback#should_run_callback?
+calls=1 166
+166 10
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+fn=ActiveRecord::ConnectionAdapters::QueryCache#clear_query_cache
+54 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#clear
+calls=1 55
+55 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher#call
+105 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb
+cfn=Rack::Lock#call
+calls=1 106
+106 7401
+
+fl=/Users/luke/rails2_simple_benchmark/(recognize_optimized)
+fn=<Object::ActionController::Routing::RouteSet>#recognize_optimized
+2 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=2 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>#recognize
+calls=1 8
+8 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#size
+calls=3 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#+
+calls=2 9
+9 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#<
+calls=3 9
+9 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/recognition_optimisation.rb
+cfn=ActionController::Routing::RouteSet#to_plain_segments
+calls=1 3
+3 6
+cfl=/Users/luke/rails2_simple_benchmark/generated code (/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>#recognize
+calls=1 8
+8 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Array>#allocate
+0 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner#silence
+64 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 65
+65 3297
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#compact
+0 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/filters.rb
+fn=ActionController::Filters::InstanceMethods#process
+604 3
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#process_without_filters
+calls=1 606
+606 7045
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#name
+0 4
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Hash#default
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=Rack::Request#POST
+119 22
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/request.rb
+cfn=ActionController::Request#form_data?
+calls=1 120
+120 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=4 132
+132 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#eql?
+calls=1 120
+120 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=<Module::Rack::Utils>#parse_nested_query
+calls=1 132
+132 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+cfn=ActionController::RewindableInput::RewindableIO#method_missing
+calls=3 135
+135 18
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#sub!
+calls=1 129
+129 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=<Module::Rack::Utils::Multipart>#parse_multipart
+calls=1 124
+124 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=7 141
+141 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#reject
+0 269
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#=~
+calls=1 221
+221 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=131 66
+66 3025
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/deprecation.rb
+fn=<Module::ActiveSupport::Deprecation>#silence
+42 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#logger
+calls=1 84
+84 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger#fatal
+calls=1 84
+84 12
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 81
+81 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#+
+calls=2 84
+84 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Exception#message
+calls=1 84
+84 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#join
+calls=1 84
+84 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#clean_backtrace
+calls=1 84
+84 6376
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 84
+84 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=1 84
+84 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#convert_content_type!
+207 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=2 209
+209 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=NilClass#to_a
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Fixnum#zero?
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/test_case.rb
+fn=ActionView::Base#initialize
+6 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=ActionView::Base#initialize_without_template_tracking
+calls=1 8
+8 16
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 7
+7 1
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/builder-2.1.2/lib/blankslate.rb
+fn=Module#append_features
+105 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#blankslate_original_append_features
+calls=1 106
+106 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#==
+calls=1 107
+107 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/session/abstract_store.rb
+fn=ActionController::Session::AbstractStore::SessionHash#initialize
+13 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#initialize
+calls=1 14
+14 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#<=>
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher#dispatch
+85 7
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::ClassMethods#call_with_exception
+calls=1 91
+91 7079
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks#run_callbacks
+calls=2 96
+96 35
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#===
+calls=1 88
+88 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet#call
+calls=1 88
+88 191
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/response.rb
+cfn=Rack::Response#to_a
+calls=1 91
+91 35
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#__send__
+0 3
+cfl=/Users/luke/rails2_simple_benchmark/test/performance/browsing_test.rb
+cfn=BrowsingTest#test_homepage
+calls=1 57
+57 8679
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session#get
+calls=1 498
+498 8652
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#read
+calls=1 15
+15 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=StringIO#rewind
+calls=1 15
+15 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 15
+15 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>#default_charset
+calls=1 2
+2 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=<Class::Module>#allocate
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#==
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#delete
+101 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#convert_key
+calls=4 102
+102 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=4 102
+102 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#reverse
+0 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#flatten
+0 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb
+fn=ActionController::ParamsParser#call
+10 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb
+cfn=ActionController::ParamsParser#parse_formatted_parameters
+calls=1 11
+11 6
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb
+cfn=Rack::MethodOverride#call
+calls=1 15
+15 7377
+
+fl=/Users/luke/rails2_simple_benchmark/test/performance/browsing_test.rb
+fn=BrowsingTest#test_homepage
+6 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Runner#get
+calls=1 7
+7 8678
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner#filter
+56 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 57
+57 3074
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#map
+0 690
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Proc#call
+calls=342 58
+58 2371
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#convert_cookies!
+228 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]
+calls=1 229
+229 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#compact
+calls=1 229
+229 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#Array
+calls=1 229
+229 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 229
+229 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/request.rb
+fn=Rack::Request#initialize
+28 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>#retrieve_connection
+122 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection
+calls=1 123
+123 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#connection_handler
+calls=1 123
+123 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>#connection
+114 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#retrieve_connection
+calls=1 115
+115 6
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/rescuable.rb
+fn=ActiveSupport::Rescuable#rescue_with_handler
+71 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/rescuable.rb
+cfn=ActiveSupport::Rescuable#handler_for_rescue
+calls=1 72
+72 7
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#_set_controller_content_type
+324 5
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=1 326
+326 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type
+calls=1 326
+326 12
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type=
+calls=1 326
+326 19
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 325
+325 0
+cfl=/Users/luke/rails2_simple_benchmark/(eval)
+cfn=ActionController::Base#response
+calls=1 326
+326 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#content_type
+calls=1 326
+326 10
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 325
+325 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+fn=Mime::Type#=~
+179 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/blank.rb
+cfn=Object#blank?
+calls=1 180
+180 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 181
+181 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Regexp#to_s
+calls=1 181
+181 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Enumerable#any?
+calls=1 182
+182 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=<Class::Regexp>#quote
+calls=1 181
+181 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#+
+calls=1 182
+182 1
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#shift
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#blankslate_original_append_features
+0 3
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=<Class::ActionController::Dispatcher>#before_dispatch_callback_chain
+7 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=1 10
+10 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 10
+10 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+fn=<Class::ActionController::Base>#view_paths
+424 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=<Class::ActionController::Base>#view_paths
+calls=1 428
+428 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=1 428
+428 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=TrueClass#to_s
+0 3
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#include?
+59 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#key?
+calls=1 60
+60 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#convert_key
+calls=1 60
+60 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#key?
+calls=1 60
+60 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#convert_key
+calls=1 60
+60 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#template=
+294 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionManagement#call
+360 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#key?
+calls=1 365
+365 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/query_cache.rb
+cfn=ActiveRecord::QueryCache#call
+calls=1 361
+361 7368
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#rescue_action
+72 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/rescuable.rb
+cfn=ActiveSupport::Rescuable#rescue_with_handler
+calls=1 74
+74 8
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#rescue_action_without_handler
+calls=1 74
+74 6651
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#instance_variable_get
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#content_type=
+65 8
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#nil?
+calls=1 67
+67 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#charset
+calls=1 67
+67 11
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 68
+68 4
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#=~
+calls=1 66
+66 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#to_s
+calls=1 68
+68 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=NilClass#nil?
+calls=1 67
+67 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+cfn=ActionController::Response#charset
+calls=1 67
+67 7
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#[]=
+calls=1 68
+68 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+cfn=Mime::Type#=~
+calls=1 66
+66 14
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/mime_type.rb
+cfn=Mime::Type#to_s
+calls=1 68
+68 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/response.rb
+fn=ActionController::Response#nonempty_ok_response?
+196 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#==
+calls=1 197
+197 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#[]
+calls=1 197
+197 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_s
+calls=1 197
+197 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/response.rb
+fn=Rack::Response#to_a
+99 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#to_i
+calls=2 106
+106 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#include?
+calls=1 102
+102 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+cfn=Rack::Utils::HeaderHash#to_hash
+calls=1 106
+106 32
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Kernel#hash
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/routing/recognition_optimisation.rb
+fn=ActionController::Routing::RouteSet#recognize_path
+55 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=1 66
+66 1
+cfl=/Users/luke/rails2_simple_benchmark/(recognize_optimized)
+cfn=<Object::ActionController::Routing::RouteSet>#recognize_optimized
+calls=1 56
+56 9
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#raise
+calls=1 66
+66 61
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#inspect
+calls=1 66
+66 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 61
+61 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#include?
+calls=1 61
+61 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=2 61
+61 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#select
+calls=1 59
+59 92
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Object#initialize
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#delete
+215 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=2 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 216
+216 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#delete
+calls=8 216
+216 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=4 216
+216 4
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb
+fn=ActionController::RewindableInput#call
+23 3
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]=
+calls=1 24
+24 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#new
+calls=1 24
+24 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb
+cfn=ActionController::ParamsParser#call
+calls=1 25
+25 7385
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=1 24
+24 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+fn=ActionView::Base#view_paths=
+234 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/paths.rb
+cfn=ActionView::PathSet#load!
+calls=1 237
+237 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/base.rb
+cfn=<Class::ActionView::Base>#process_view_paths
+calls=1 235
+235 6
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=1 235
+235 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/query_cache.rb
+fn=ActiveRecord::QueryCache::ClassMethods#cache
+5 4
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>#connection
+calls=1 9
+9 7
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>#configurations
+calls=1 6
+6 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#blank?
+calls=1 6
+6 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb
+cfn=ActiveRecord::ConnectionAdapters::QueryCache#cache
+calls=1 9
+9 7356
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/memoizable.rb
+fn=ActionView::Template#mime_type
+69 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#[]
+calls=1 73
+73 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#empty?
+calls=1 70
+70 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#bytesize
+0 0
+
+fl=/Users/luke/rails2_simple_benchmark/(eval)
+fn=<Class::ActionController::Dispatcher>#after_dispatch_callback_chain
+7 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Class#superclass
+calls=1 10
+10 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 10
+10 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Enumerable#all?
+0 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=1 195
+195 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=String#split
+0 47
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+fn=ActionController::Rescue#rescue_action_without_handler
+141 5
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#logger
+calls=1 142
+142 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#log_error
+calls=1 142
+142 6401
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/base.rb
+cfn=ActionController::Base#performed?
+calls=1 143
+143 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base#consider_all_requests_local
+calls=1 151
+151 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue#rescue_action_locally
+calls=1 152
+152 245
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#respond_to?
+calls=1 147
+147 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/template.rb
+fn=ActionView::Template#render_template
+193 2
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/test_case.rb
+cfn=ActionView::Renderable#render
+calls=1 194
+194 96
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_view/test_case.rb
+cfn=ActionView::Renderable#render
+calls=1 194
+194 37
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>#default_charset
+17 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess#default
+15 2
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 19
+19 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 19
+19 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 19
+19 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#include?
+calls=1 16
+16 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=1 16
+16 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 16
+16 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#default
+calls=1 19
+19 0
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess#include?
+calls=1 16
+16 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Symbol#to_s
+calls=1 16
+16 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#is_a?
+calls=1 16
+16 0
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Array#size
+0 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+fn=Rack::Lint#check_env
+59 40
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#each
+calls=1 146
+146 194
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Array#each
+calls=2 139
+139 86
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint::Assertion#assert
+calls=9 199
+199 48
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_error
+calls=1 168
+168 28
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#inspect
+calls=1 161
+161 1
+cfl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lint.rb
+cfn=Rack::Lint#check_input
+calls=1 166
+166 28
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#inspect
+calls=1 63
+63 47
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#[]
+calls=6 188
+188 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Kernel#class
+calls=2 157
+157 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Module#to_s
+calls=2 157
+157 2
+
+fl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+fn=Module#to_s
+0 12
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-2.3.2/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger#info?
+74 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Fixnum#>=
+calls=1 75
+75 0
+
+fl=/Users/luke/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/utils.rb
+fn=Rack::Utils::HeaderHash#include?
+219 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=1 220
+220 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 220
+220 1
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=Hash#has_key?
+calls=1 220
+220 0
+cfl=/Users/luke/rails2_simple_benchmark/ruby_runtime
+cfn=String#downcase
+calls=1 220
+220 1
+
