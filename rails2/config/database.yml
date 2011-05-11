@@ -1,5 +1,9 @@
-# SQLite version 3.x
-#   gem install sqlite3
+production:
+  adapter: mysql
+  database: rails2_simple_benchmark_production
+  username: root
+  password:
+  host: localhost
 
 development:
   adapter: mysql
