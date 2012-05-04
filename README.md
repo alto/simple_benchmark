@@ -25,7 +25,7 @@ cd rails32 && ./script/rails runner load_users.rb
 ```
 
 
-## Thanks ## 
+## Thanks ##
 
 This benchmark is based on TST Media's simple benchmark, but updated to test different Rails 3.x versions against each other.
 
