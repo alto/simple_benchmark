@@ -11,17 +11,17 @@ needed (username, password, etc.), run migrations, and then execute the followin
 
 Rails 3.0.12:
 ```sh
-cd rails30 && ./script/rails runner load_users.rb
+cd rails30 && ./script/rails runner ../read_and_write_users.rb
 ```
 
 Rails 3.1.4: 
 ```sh
-cd rails31 && ./script/rails runner load_users.rb
+cd rails31 && ./script/rails runner ../read_and_write_users.rb
 ```
 
 Rails 3.2.3: 
 ```sh
-cd rails32 && ./script/rails runner load_users.rb
+cd rails32 && ./script/rails runner ../read_and_write_users.rb
 ```
 
 
