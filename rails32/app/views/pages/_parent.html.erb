@@ -1,0 +1,7 @@
+<h2>Partial with Kids</h2>
+
+<ul>
+  <%- @data.each do |k,v| -%>
+    <%= render :partial => 'kid', :locals => {:key => k, :value => v} %>
+  <%- end -%>
+</ul>

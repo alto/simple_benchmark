@@ -1,0 +1,17 @@
+<h1>Page with Partials</h1>
+
+<ul>
+  <%- @data.each do |k,v| -%>
+    <li><%= k %> has <%= v %></li>
+  <%- end -%>
+</ul>
+
+<%= render :partial => 'simple' %>
+
+<%= render :partial => 'local', :locals => {:data => @data} %>
+
+<%= render :partial => 'shared/shared' %>
+
+<%= render :partial => 'pages/simple' %>
+
+<%= render :partial => 'parent' %>

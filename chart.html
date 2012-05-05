@@ -15,11 +15,35 @@
         var options = {
           title: 'Read from and Write to Database',
           vAxis: {
-            title: 'seconds (less is better)'
+            title: 'seconds (less is better)',
+            minValue: 0
           }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.LineChart(document.getElementById('chart_read_write_users'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Action',          '5000x Text', '5000x Simple Page',  '5000x Pages with Partials'],
+          ['Rails 3.0.12',    7.26,         19.05,                27.76],
+          ['Rails 3.1.4',     6.41,          9.93,                16.64],
+          ['Rails 3.2.3',     7.57,         12.95,                20.94]
+        ]);
+
+        var options = {
+          title: 'Render Without Database',
+          vAxis: {
+            title: 'seconds (less is better)',
+            minValue: 0
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_render_wo_database'));
         chart.draw(data, options);
       }
     </script>
@@ -29,6 +53,7 @@
     <p>
       MacBook Pro, 8GB, 2.66 GHz Intel Core i7, Mac OS X Lion 10.7.3
     </p>
-    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    <div id="chart_read_write_users" style="width: 900px; height: 500px;"></div>
+    <div id="chart_render_wo_database" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
