@@ -7,13 +7,16 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Action',          'Read 10000 users', 'Write 10000 users'],
-          ['Rails 3.0.12',    3.81,               9.50],
-          ['Rails 3.1.4',     3.81,               6.81],
-          ['Rails 3.2.3',     4.21,               6.70]
+          ['Rails 3.0.12',    2.79,               7.34],
+          ['Rails 3.1.4',     3.38,               7.39],
+          ['Rails 3.2.3',     3.98,               7.04]
         ]);
 
         var options = {
-          title: 'Rails Performance'
+          title: 'Read from and Write to Database',
+          vAxis: {
+            title: 'seconds (less is better)'
+          }
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
