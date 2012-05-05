@@ -6,10 +6,10 @@
       google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Action',            'Read 10000 users', 'Write 10000 users'],
-          ['Rails 3.0.12',    3.56,   8.95],
-          ['Rails 3.1.4',     3.71,   6.82],
-          ['Rails 3.2.3',     4.11,   6.68]
+          ['Action',          'Read 10000 users', 'Write 10000 users'],
+          ['Rails 3.0.12',    3.81,               9.50],
+          ['Rails 3.1.4',     3.81,               6.81],
+          ['Rails 3.2.3',     4.21,               6.70]
         ]);
 
         var options = {
@@ -22,6 +22,10 @@
     </script>
   </head>
   <body>
+    <h1>Rails Performance (Simple Benchmark)</h1>
+    <p>
+      MacBook Pro, 8GB, 2.66 GHz Intel Core i7, Mac OS X Lion 10.7.3
+    </p>
     <div id="chart_div" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
