@@ -6,16 +6,16 @@
       google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Action',          'Read 10000 users', 'Write 10000 users'],
-          ['Rails 3.0.12',    2.79,               7.34],
-          ['Rails 3.1.4',     3.38,               7.39],
-          ['Rails 3.2.3',     3.98,               7.04]
+          ['Action',          'Read', 'Write'],
+          ['Rails 3.0.12',    0.279,  0.734],
+          ['Rails 3.1.4',     0.338,  0.739],
+          ['Rails 3.2.3',     0.398,  0.704]
         ]);
 
         var options = {
           title: 'Read from and Write to Database',
           vAxis: {
-            title: 'seconds (less is better)',
+            title: 'milliseconds (less is better)',
             minValue: 0
           }
         };
@@ -29,16 +29,16 @@
       google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Action',          '5000x Text', '5000x Simple Page',  '5000x Pages with Partials'],
-          ['Rails 3.0.12',    7.26,         19.05,                27.76],
-          ['Rails 3.1.4',     6.41,          9.93,                16.64],
-          ['Rails 3.2.3',     7.57,         12.95,                20.94]
+          ['Action',          'Render Text', 'Render Simple Page',  'Render Page with Partials'],
+          ['Rails 3.0.12',    1.45,           3.81,                 5.55],
+          ['Rails 3.1.4',     1.28,           1.99,                 3.33],
+          ['Rails 3.2.3',     1.51,           2.59,                 4.19]
         ]);
 
         var options = {
           title: 'Render Without Database',
           vAxis: {
-            title: 'seconds (less is better)',
+            title: 'milliseconds (less is better)',
             minValue: 0
           }
         };
