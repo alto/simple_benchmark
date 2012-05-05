@@ -4,6 +4,12 @@ development:
   username: root
   password:
   host: localhost
+test:
+  adapter: mysql2
+  database: rails3_simple_benchmark_production
+  username: root
+  password:
+  host: localhost
 production:
   adapter: mysql2
   database: rails3_simple_benchmark_production
