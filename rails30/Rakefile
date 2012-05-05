@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-PerfTest::Application.load_tasks
+Rails30::Application.load_tasks
