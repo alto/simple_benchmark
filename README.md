@@ -13,38 +13,38 @@ needed (username, password, etc.), run migrations, and then execute the followin
 
 ### Rails 3.0.12
 ```sh
-cd rails30 && ./script/rails runner ../read_users_test.rb
-cd rails30 && ./script/rails runner ../write_users_test.rb
-cd rails30 && ./script/rails runner ../write_users_with_hooks_test.rb
-cd rails30 && ./script/rails runner ../write_users_with_validations_test.rb
-cd rails30 && ./script/rails runner ../render_text_test.rb
-cd rails30 && ./script/rails runner ../render_simple_page_test_.rb
-cd rails30 && ./script/rails runner ../render_page_with_partials_test.rb
-cd rails30 && ./script/rails runner ../render_page_with_filters_test.rb
+cd rails30 && ./script/rails runner test/integration/read_users_test.rb
+cd rails30 && ./script/rails runner test/integration/write_users_test.rb
+cd rails30 && ./script/rails runner test/integration/write_users_with_hooks_test.rb
+cd rails30 && ./script/rails runner test/integration/write_users_with_validations_test.rb
+cd rails30 && ./script/rails runner test/integration/render_text_test.rb
+cd rails30 && ./script/rails runner test/integration/render_simple_page_test_.rb
+cd rails30 && ./script/rails runner test/integration/render_page_with_partials_test.rb
+cd rails30 && ./script/rails runner test/integration/render_page_with_filters_test.rb
 ```
 
 ### Rails 3.1.4
 ```sh
-cd rails31 && ./script/rails runner ../read_users_test.rb
-cd rails31 && ./script/rails runner ../write_users_test.rb
-cd rails31 && ./script/rails runner ../write_users_with_hooks_test.rb
-cd rails31 && ./script/rails runner ../write_users_with_validations_test.rb
-cd rails31 && ./script/rails runner ../render_text_test.rb
-cd rails31 && ./script/rails runner ../render_simple_page_test_.rb
-cd rails31 && ./script/rails runner ../render_page_with_partials_test.rb
-cd rails31 && ./script/rails runner ../render_page_with_filters_test.rb
+cd rails31 && ./script/rails runner test/integration/read_users_test.rb
+cd rails31 && ./script/rails runner test/integration/write_users_test.rb
+cd rails31 && ./script/rails runner test/integration/write_users_with_hooks_test.rb
+cd rails31 && ./script/rails runner test/integration/write_users_with_validations_test.rb
+cd rails31 && ./script/rails runner test/integration/render_text_test.rb
+cd rails31 && ./script/rails runner test/integration/render_simple_page_test_.rb
+cd rails31 && ./script/rails runner test/integration/render_page_with_partials_test.rb
+cd rails31 && ./script/rails runner test/integration/render_page_with_filters_test.rb
 ```
 
 ### Rails 3.2.3
 ```sh
-cd rails32 && ./script/rails runner ../read_users_test.rb
-cd rails32 && ./script/rails runner ../write_users_test.rb
-cd rails32 && ./script/rails runner ../write_users_with_hooks_test.rb
-cd rails32 && ./script/rails runner ../write_users_with_validations_test.rb
-cd rails32 && ./script/rails runner ../render_text_test.rb
-cd rails32 && ./script/rails runner ../render_simple_page_test_.rb
-cd rails32 && ./script/rails runner ../render_page_with_partials_test.rb
-cd rails32 && ./script/rails runner ../render_page_with_filters_test.rb
+cd rails32 && ./script/rails runner test/integration/read_users_test.rb
+cd rails32 && ./script/rails runner test/integration/write_users_test.rb
+cd rails32 && ./script/rails runner test/integration/write_users_with_hooks_test.rb
+cd rails32 && ./script/rails runner test/integration/write_users_with_validations_test.rb
+cd rails32 && ./script/rails runner test/integration/render_text_test.rb
+cd rails32 && ./script/rails runner test/integration/render_simple_page_test_.rb
+cd rails32 && ./script/rails runner test/integration/render_page_with_partials_test.rb
+cd rails32 && ./script/rails runner test/integration/render_page_with_filters_test.rb
 ```
 
 
