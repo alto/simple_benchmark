@@ -38,5 +38,7 @@ module Rails30
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    # config.middleware.use ::Rack::PerftoolsProfiler, :default_printer => 'text', :bundler => true
   end
 end

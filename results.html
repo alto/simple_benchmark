@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        // calls values have been divided by 4 to improve legibility
+        var data = google.visualization.arrayToDataTable([
+          ['Action',       'samples (with callbacks)', 'calls (with callbacks', 'samples (w/o callbacks)', 'calls (w/o callbacks)'],
+          ['Rails 3.0',    91, 261.75, 91, 251.25],
+          ['Rails 3.1',    90, 266.75, 83, 249.25],
+          ['Rails 3.2',   104, 354.00, 89, 277.00]
+        ]);
+
+        var options = {
+          title: 'samples and methods calls',
+          vAxis: {
+            title: '(less is better)',
+            minValue: 0
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_read_users_sqlite'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        // calls values have been divided by 4 to improve legibility
+        var data = google.visualization.arrayToDataTable([
+          ['Action',       'samples (with callbacks)',  'calls (with callbacks)', 'samples (w/o callbacks)', 'calls (w/o callbacks)'],
+          ['Rails 3.0',    73, 198.75, 72, 188.25],
+          ['Rails 3.1',    83, 238.75, 79, 221.25],
+          ['Rails 3.2',   101, 326.00, 88, 249.00]
+        ]);
+
+        var options = {
+          title: 'samples and methods calls',
+          vAxis: {
+            title: '(less is better)',
+            minValue: 0
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_read_users_mysql'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Rails Performance (Simple Benchmark)</h1>
+    <p>
+      MacBook Air
+    </p>
+
+    <h2>Read from Sqlite3 Database</h2>
+    <div id="chart_read_users_sqlite" style="width: 900px; height: 500px;"></div>
+
+    <h2>Read from Mysql Database</h2>
+    <div id="chart_read_users_mysql" style="width: 900px; height: 500px;"></div>
+
+  </body>
+</html>

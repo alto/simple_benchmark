@@ -55,5 +55,8 @@ module Rails32
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.active_record.identity_map = false
+    # config.middleware.use ::Rack::PerftoolsProfiler, :default_printer => 'text', :bundler => true
   end
 end

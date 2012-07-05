@@ -1,18 +1,15 @@
+Defaults: &defaults
+  # adapter: sqlite3
+  # database: sqlite3.db
+  adapter: mysql2
+  database: rails3_simple_benchmark_production
+  username: root
+  password:
+  host: localhost
+
 development:
-  adapter: mysql2
-  database: rails3_simple_benchmark_production
-  username: root
-  password:
-  host: localhost
+  <<: *defaults
 test:
-  adapter: mysql2
-  database: rails3_simple_benchmark_production
-  username: root
-  password:
-  host: localhost
+  <<: *defaults
 production:
-  adapter: mysql2
-  database: rails3_simple_benchmark_production
-  username: root
-  password:
-  host: localhost
+  <<: *defaults
