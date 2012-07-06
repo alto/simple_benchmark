@@ -31,10 +31,10 @@
       function drawChart() {
         // calls values have been divided by 4 to improve legibility
         var data = google.visualization.arrayToDataTable([
-          ['Action',       'samples (with callbacks)',  'calls (with callbacks)', 'samples (w/o callbacks)', 'calls (w/o callbacks)'],
-          ['Rails 3.0',    73, 198.75, 72, 188.25],
-          ['Rails 3.1',    83, 238.75, 79, 221.25],
-          ['Rails 3.2',   101, 326.00, 88, 249.00]
+          ['Action',       'samples (with callbacks)',  'calls (with callbacks)', 'samples (w/o callbacks)', 'calls (w/o callbacks)', 'samples (w/o callbacks & explain)', 'calls (w/o callbacks & explain)'],
+          ['Rails 3.0',    73, 198.75, 72, 188.25, 72, 188.25],
+          ['Rails 3.1',    83, 238.75, 79, 221.25, 79, 221.25],
+          ['Rails 3.2',   101, 326.00, 88, 249.00, 84, 235.00]
         ]);
 
         var options = {
